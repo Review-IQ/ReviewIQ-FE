@@ -23,7 +23,7 @@ function App() {
   const AuthProvider = IS_DEMO_MODE ? MockAuth0Provider : Auth0ProviderWithHistory;
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/ReviewIQ-FE">
       <AuthProvider>
         <div className="min-h-screen bg-gray-50">
           <Routes>
