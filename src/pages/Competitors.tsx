@@ -15,24 +15,16 @@ import {
   Crown,
   Award,
   MessageSquare,
-  Clock,
   ThumbsUp,
   Activity
 } from 'lucide-react';
 import {
-  BarChart,
-  Bar,
   XAxis,
   YAxis,
   CartesianGrid,
   Tooltip,
   Legend,
   ResponsiveContainer,
-  RadarChart,
-  PolarGrid,
-  PolarAngleAxis,
-  PolarRadiusAxis,
-  Radar,
   LineChart,
   Line
 } from 'recharts';
@@ -861,3 +853,4 @@ export function Competitors() {
     </div>
   );
 }
+
