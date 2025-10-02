@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import {
   BarChart3, Star, MessageSquare,
-  Plus, RefreshCw, Eye, Bell, Users, ExternalLink,
+  RefreshCw, Bell, ExternalLink,
   Activity, Clock, ThumbsUp, ThumbsDown, Minus, Calendar, Share2
 } from 'lucide-react';
 import { api } from '../services/api';
@@ -582,3 +582,4 @@ export function Dashboard() {
     </div>
   );
 }
+
